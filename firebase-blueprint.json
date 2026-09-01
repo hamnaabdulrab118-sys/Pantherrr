@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "Gift": {
+      "collection": "gifts",
+      "fields": {
+        "id": { "type": "string", "description": "Unique identifier of the gift" },
+        "title": { "type": "string", "description": "Title of the scrapbook gift" },
+        "theme": { "type": "string", "description": "Theme aesthetic name" },
+        "flowers": { "type": "array", "description": "List of selected flower bouquet IDs" },
+        "wrapStyle": { "type": "string", "description": "Wrap style ID" },
+        "bouquetLetter": { "type": "string", "description": "Note attached to flower bouquet" },
+        "natureElements": { "type": "array", "description": "Selected animated nature elements" },
+        "charms": { "type": "array", "description": "Selected charms" },
+        "coverImage": { "type": "string", "description": "Cover image URL or data" },
+        "photoUrl": { "type": "string", "description": "Main memory photo URL or data" },
+        "photoCaption": { "type": "string", "description": "Main memory photo caption" },
+        "videoUrl": { "type": "string", "description": "Memory video URL or data" },
+        "videoCaption": { "type": "string", "description": "Memory video caption" },
+        "voiceNoteUrl": { "type": "string", "description": "Voice note audio data/URL" },
+        "voiceNoteDuration": { "type": "number", "description": "Voice note length in seconds" },
+        "songTitle": { "type": "string", "description": "Song title" },
+        "songArtist": { "type": "string", "description": "Song artist" },
+        "backgroundMusic": { "type": "string", "description": "Background music preset or ID" },
+        "musicPreset": { "type": "string", "description": "Music synthesizer preset ID" },
+        "musicAudioUrl": { "type": "string", "description": "Custom full song audio data or URL" },
+        "moodTag": { "type": "string", "description": "Mood sticker/tag" },
+        "captainsLog": { "type": "string", "description": "Captain log written entry" },
+        "captainsLogImage": { "type": "string", "description": "Captain log attached image" },
+        "locketPhoto": { "type": "string", "description": "Inside locket photo" },
+        "locketCaption": { "type": "string", "description": "Locket message" },
+        "distanceMiles": { "type": "number", "description": "Calculated travel distance in miles" },
+        "fromCity": { "type": "string", "description": "Departure city" },
+        "toCity": { "type": "string", "description": "Destination city" },
+        "fromCoords": { "type": "array", "description": "GPS coordinates for sender [lat, lng]" },
+        "toCoords": { "type": "array", "description": "GPS coordinates for receiver [lat, lng]" },
+        "fromPerson": { "type": "string", "description": "Sender name (Dino)" },
+        "toPerson": { "type": "string", "description": "Recipient name (Panther)" },
+        "letter": { "type": "string", "description": "Handwritten personal parchment letter" },
+        "chatMessages": { "type": "array", "description": "Interactive chat & message log" },
+        "date": { "type": "string", "description": "Date created" },
+        "lastEditedDate": { "type": "string", "description": "Date last edited" },
+        "published": { "type": "boolean", "description": "Whether gift is published" },
+        "shareCode": { "type": "string", "description": "Short share code" },
+        "enabledSlides": { "type": "array", "description": "List of active slide indices" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of last update" }
+      }
+    }
+  }
+}

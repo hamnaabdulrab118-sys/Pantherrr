@@ -1,0 +1,6 @@
+{
+  "name": "Panther & Dino Memory Scrapbook",
+  "description": "A sentimental scrapbook, memory builder, and romantic gift app for Panther and Dino across distances.",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
